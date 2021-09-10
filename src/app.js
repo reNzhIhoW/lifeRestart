@@ -264,10 +264,10 @@ class App{
                     return;
                 }
                 this.#life.restart({
-                    CHR: groups.CHR.get(),
-                    INT: groups.INT.get(),
-                    STR: groups.STR.get(),
-                    MNY: groups.MNY.get(),
+                    CHR: 9999,
+                    INT: 9999,
+                    STR: 9999,
+                    MNY: 9999,
                     SPR: 5,
                     TLT: Array.from(this.#talentSelected).map(({id})=>id),
                 });
