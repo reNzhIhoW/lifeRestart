@@ -264,12 +264,12 @@ class App{
                     return;
                 }
                 this.#life.restart({
-                    CHR: 9999,
-                    INT: 9999,
-                    STR: 9999,
-                    MNY: 9999,
-                    SPR: 5,
-                    TLT: Array.from(this.#talentSelected).map(({id})=>id),
+                    CHR: 99999,
+                    INT: 99999,
+                    STR: 99999,
+                    MNY: 99999,
+                    SPR: 99999,
+                    TLT: [1134,1048,1114],
                 });
                 this.switch('trajectory');
                 this.#pages.trajectory.born();
